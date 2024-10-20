@@ -1,28 +1,28 @@
 #1.
-#def add(a:int,b:int)-> int:
-#    return a + b
-#a = int(input())
-#b = int(input())
-#print("a+b={}",format(add(a+b)))
+def add(a:int,b:int)-> int:
+    return a + b
+a = int(input())
+b = int(input())
+print("a+b={}",format(add(a+b)))
 #2.
-#N = int(input(""))
-#if N >=0 and N % 10 != 0:
-#    a = str(N)[::-1]
-#    print(a)
-#elif N < 0 and N % 10 != 0:
-#    b = -N
-#    c = str(b)[::-1]
-#    i = -int(c)
-#    print(i)
-#elif N >= 0 and N % 10 == 0:
-#    d = N // 10
-#    f = str(d)[::-1]
-#    print(f)
-#elif N < 0 and N % 10 == 0:
-#    g = N // 10
-#    h = str(-g)[::-1]
-#    j = -int(h)
-#    print(j)
+N = int(input(""))
+if N >=0 and N % 10 != 0:
+    a = str(N)[::-1]
+    print(a)
+elif N < 0 and N % 10 != 0:
+    b = -N
+    c = str(b)[::-1]
+    i = -int(c)
+    print(i)
+elif N >= 0 and N % 10 == 0:
+    d = N // 10
+    f = str(d)[::-1]
+    print(f)
+elif N < 0 and N % 10 == 0:
+    g = N // 10
+    h = str(-g)[::-1]
+    j = -int(h)
+    print(j)
 #3.
 str = (input(""))
 num_0 = 0
